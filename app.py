@@ -12,11 +12,13 @@ from docx import Document
 import google.generativeai as genai
 
 # Configure Gemini
-if not os.getenv("GOOGLE_API_KEY"):
-    st.error("GOOGLE_API_KEY is not set. Please check your .env file.")
+api_key = os.getenv("GOOGLE_API_KEY") or st.secrets.get("GOOGLE_API_KEY")
+
+if not api_key:
+    st.error("GOOGLE_API_KEY is not set.")
     st.stop()
 
-genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
+genai.configure(api_key=api_key)
 
 # Poppler path for Windows (change if needed)
 poppler_path = r"C:\Program Files (x86)\poppler\Library\bin"
@@ -199,5 +201,6 @@ if ask_button:
                 st.error(str(ve))
     else:
         st.warning("Please upload a resume and enter your question.")
+
 
 
