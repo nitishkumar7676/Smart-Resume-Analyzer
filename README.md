@@ -1,48 +1,116 @@
-[Click here to see the app](https://smart-resume-analyzer-ihzkwg8lqrhj9x26mrxndy.streamlit.app/)
 📄 Smart Resume Analyzer (AI-Powered ATS Tool)
+Smart Resume Analyzer is an AI-powered web app that analyzes resumes against job descriptions using Google Gemini AI. It helps candidates optimize resumes for ATS (Applicant Tracking Systems), identify missing skills and keywords, and provides actionable career improvement suggestions.
 
-An AI-powered Resume Analyzer built with Streamlit and Google Gemini AI that evaluates resumes against job descriptions, simulates ATS screening, identifies missing keywords, and provides actionable career improvement insights.
+💻 Live Demo:
+[Click here to see the app](https://smart-resume-analyzer-ihzkwg8lqrhj9x26mrxndy.streamlit.app/)
 
-This project demonstrates real-world usage of Generative AI for recruitment and career optimization.
+🚀 Features
 
-🚀 Why This Project Matters
+📊 ATS Match Percentage – Calculates resume fit for a job description.
 
-Recruiters and ATS systems reject thousands of resumes before human review.
-This tool helps candidates optimize resumes, increase ATS compatibility, and understand recruiter expectations using cutting-edge AI.
+🧠 AI Resume Evaluation – Highlights strengths, weaknesses, and improvement tips.
 
-✔ Practical
-✔ Industry-relevant
-✔ Production-ready
-✔ Strong AI/ML portfolio project
+🔍 Missing Keyword Detection – Detects important keywords missing in the resume.
 
-✨ Features
+🎯 Skill & Career Guidance – Suggests skills, tools, certifications, and learning paths.
 
-📊 ATS Match Percentage
-Calculates how closely a resume matches a job description.
+🧑‍💼 Role-Based Analysis – Custom analysis for Data Scientist, Full Stack Developer, Big Data Engineer, DevOps Engineer, Data Analyst.
 
-🧠 AI Resume Evaluation
-HR-style analysis highlighting strengths, weaknesses, and improvement areas.
+📂 Multi-Format Resume Support – PDF, DOC, DOCX.
 
-🔍 Missing Keyword Detection
-Identifies critical job keywords missing from the resume.
+💬 Ask Anything Mode – Ask questions about your resume or job role.
 
-🎯 Skill & Career Guidance
-Recommends skills, tools, certifications, and learning paths.
+🛠️ Tech Stack
+Category	Tools
+Frontend	Streamlit
+AI Model	Google Gemini 1.5 Flash
+Language	Python
+PDF Processing	pdf2image, Pillow
+DOCX Processing	python-docx
+Environment Management	python-dotenv
 
-🧑‍💼 Role-Based Analysis
+📁 How It Works
 
-Data Scientist
+Upload your resume (PDF/DOC/DOCX)
 
-Data Analyst
+Paste the job description
 
-Full Stack Developer
+Select your target job role
 
-Big Data Engineer
+Choose an analysis option:
 
-DevOps Engineer
+Resume Evaluation
 
-📂 Multi-Format Support
-Upload resumes in PDF, DOC, or DOCX format.
+Skill Improvement
 
-💬 Ask Anything Mode
-Ask custom questions about your resume or job role.
+Missing Keywords
+
+ATS Match Percentage
+
+Get AI-generated insights instantly
+
+🔧 Setup Instructions
+1. Clone Repo
+git clone https://github.com/your-username/smart-resume-analyzer.git
+cd smart-resume-analyzer
+
+2. Install Dependencies
+pip install -r requirements.txt
+
+3. Create .env for Local Testing
+GOOGLE_API_KEY=your_google_gemini_api_key
+
+4. Run App
+streamlit run app.py
+
+🔐 Deployment on Streamlit Cloud
+
+Push your code to GitHub.
+
+Open Streamlit Cloud → New App → Connect to repo
+
+In Secrets / Environment Variables, add:
+
+GOOGLE_API_KEY = "your_google_gemini_api_key"
+
+Reboot the app.
+
+📂 Project Structure
+smart-resume-analyzer/
+│── app.py
+│── requirements.txt
+│── README.md
+│── .gitignore
+│── .env.example
+│── assets/
+
+
+🌟 Why This Project Stands Out
+
+Real-world ATS simulation
+
+Practical use of Generative AI
+
+Secure secret management
+
+Clean, user-focused design
+
+Strong portfolio project for Data, AI, and Full Stack roles
+
+📌 Future Enhancements
+
+Resume score visualization
+
+Multi-language support
+
+PDF report export
+
+Resume rewriting suggestions
+
+Job scraping integration
+
+🙌 Author
+
+Nitish kumar
+B.Tech in Computer Science and Engineering (AI & DS)
+
