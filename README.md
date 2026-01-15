@@ -77,12 +77,19 @@ GOOGLE_API_KEY = "your_google_gemini_api_key"
 Reboot the app.
 
 # 📂 Project Structure
+
 smart-resume-analyzer/
+
 │── app.py
+
 │── requirements.txt
+
 │── README.md
+
 │── .gitignore
+
 │── .env.example
+
 │── assets/
 
 
