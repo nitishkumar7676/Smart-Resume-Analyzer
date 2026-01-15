@@ -50,19 +50,6 @@ ATS Match Percentage
 
 Get AI-generated insights instantly
 
-# 🔧 Setup Instructions
-1. Clone Repo
-git clone https://github.com/your-username/smart-resume-analyzer.git
-cd smart-resume-analyzer
-
-2. Install Dependencies
-pip install -r requirements.txt
-
-3. Create .env for Local Testing
-GOOGLE_API_KEY=your_google_gemini_api_key
-
-4. Run App
-streamlit run app.py
 
 # 🔐 Deployment on Streamlit Cloud
 
@@ -120,5 +107,6 @@ Job scraping integration
 # 🙌 Author
 
 Nitish kumar
+
 B.Tech in Computer Science and Engineering (AI & DS)
 
