@@ -1,3 +1,4 @@
+[Click here to see the app](https://smart-resume-analyzer-ihzkwg8lqrhj9x26mrxndy.streamlit.app/)
 📄 Smart Resume Analyzer (AI-Powered ATS Tool)
 
 An AI-powered Resume Analyzer built with Streamlit and Google Gemini AI that evaluates resumes against job descriptions, simulates ATS screening, identifies missing keywords, and provides actionable career improvement insights.
