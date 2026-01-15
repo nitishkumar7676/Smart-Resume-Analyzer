@@ -1,11 +1,11 @@
-#📄 Smart Resume Analyzer (AI-Powered ATS Tool)
+# 📄 Smart Resume Analyzer (AI-Powered ATS Tool)
 
 Smart Resume Analyzer is an AI-powered web app that analyzes resumes against job descriptions using Google Gemini AI. It helps candidates optimize resumes for ATS (Applicant Tracking Systems), identify missing skills and keywords, and provides actionable career improvement suggestions.
 
-#💻 Live Demo:
+# 💻 Live Demo:
 [Click here to see the app](https://smart-resume-analyzer-ihzkwg8lqrhj9x26mrxndy.streamlit.app/)
 
-#🚀 Features
+# 🚀 Features
 
 📊 ATS Match Percentage – Calculates resume fit for a job description.
 
@@ -21,7 +21,7 @@ Smart Resume Analyzer is an AI-powered web app that analyzes resumes against job
 
 💬 Ask Anything Mode – Ask questions about your resume or job role.
 
-#🛠️ Tech Stack
+# 🛠️ Tech Stack
 Category	Tools
 Frontend	Streamlit
 AI Model	Google Gemini 1.5 Flash
@@ -30,7 +30,7 @@ PDF Processing	pdf2image, Pillow
 DOCX Processing	python-docx
 Environment Management	python-dotenv
 
-#📁 How It Works
+# 📁 How It Works
 
 Upload your resume (PDF/DOC/DOCX)
 
@@ -50,7 +50,7 @@ ATS Match Percentage
 
 Get AI-generated insights instantly
 
-#🔧 Setup Instructions
+# 🔧 Setup Instructions
 1. Clone Repo
 git clone https://github.com/your-username/smart-resume-analyzer.git
 cd smart-resume-analyzer
@@ -64,7 +64,7 @@ GOOGLE_API_KEY=your_google_gemini_api_key
 4. Run App
 streamlit run app.py
 
-#🔐 Deployment on Streamlit Cloud
+# 🔐 Deployment on Streamlit Cloud
 
 Push your code to GitHub.
 
@@ -76,7 +76,7 @@ GOOGLE_API_KEY = "your_google_gemini_api_key"
 
 Reboot the app.
 
-#📂 Project Structure
+# 📂 Project Structure
 smart-resume-analyzer/
 │── app.py
 │── requirements.txt
@@ -86,7 +86,7 @@ smart-resume-analyzer/
 │── assets/
 
 
-#🌟 Why This Project Stands Out
+# 🌟 Why This Project Stands Out
 
 Real-world ATS simulation
 
@@ -98,7 +98,7 @@ Clean, user-focused design
 
 Strong portfolio project for Data, AI, and Full Stack roles
 
-#📌 Future Enhancements
+# 📌 Future Enhancements
 
 Resume score visualization
 
@@ -110,7 +110,7 @@ Resume rewriting suggestions
 
 Job scraping integration
 
-#🙌 Author
+# 🙌 Author
 
 Nitish kumar
 B.Tech in Computer Science and Engineering (AI & DS)
